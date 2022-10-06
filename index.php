@@ -13,7 +13,7 @@
         $a = 5;
         if($a==0){echo "Podałeś 0";}
         elseif ($a%2==0){
-            echo "Parzysta";
+            echo "Dupa";
         }
         else{
             echo "Nieparzysta";
