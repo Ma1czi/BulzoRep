@@ -5,3 +5,19 @@ body, html{
 #Adas{
     text-align: center;
 }
+.button{
+    width: 170px;
+    height: 70px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+
+}
+.button:hover{
+    background-color: rgb(73, 65, 65);
+}
+#reset{
+    text-align: left;
+}
+#picture{
+    transition: 0.5s;
+}
