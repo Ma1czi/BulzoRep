@@ -1,23 +1,29 @@
-body, html{
+html, body{
     background-color: black !important;
     color: white !important;
 }
-#Adas{
-    text-align: center;
+#a{
+    list-style-type: square;
+    text-align: justify;
 }
-.button{
-    width: 170px;
-    height: 70px;
-    background-color: rgb(49, 49, 49);
-    border-radius: 5px;
-
+.b{
+    text-decoration: none;
+    color: aqua;
 }
-.button:hover{
-    background-color: rgb(73, 65, 65);
+.b:visited{
+    color: chartreuse;
 }
-#reset{
-    text-align: left;
+.b:link{
+    color: aqua;
 }
-#picture{
-    transition: 0.5s;
+.b:hover{
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: justify;
+    
+}
+#c{
+    text-decoration: line-through dotted;
 }
